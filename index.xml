@@ -6,8 +6,18 @@
     <description>Recent content on kas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2016 16:30:37 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Apr 2016 16:37:34 +0800</lastBuildDate>
     <atom:link href="http://kas.li/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>do something that you want to do</title>
+      <link>http://kas.li/post/FirstPost/</link>
+      <pubDate>Fri, 15 Apr 2016 16:37:34 +0800</pubDate>
+      
+      <guid>http://kas.li/post/FirstPost/</guid>
+      <description>&lt;p&gt;Life is not fish , do something that you want to do.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>你好，Hugo</title>
