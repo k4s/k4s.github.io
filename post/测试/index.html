@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Categories &middot; kas</title>
+        <title>kas</title>
         <meta name="author">
         <meta name="description" content="The awesome blog of Kas.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,21 +38,80 @@
           </div>
         </header>
 
+
 <div class="container clearfix">
     <main role="main" class="content">
-    <a class="btn home" href="http://kas.li/" title="">&laquo; </a>
-    <h2>Categories:</a>
-    <ul>
-     
-        <li>
-            <a href="development">development (2)</a>
-        </li>
+        <article class="post">
+            <a class="btn home" href="http://kas.li/" title="">&laquo; </a>
+            
+<h1><a href="http://kas.li/post/%E6%B5%8B%E8%AF%95/" title="测试">测试</a></h1>
+
+<footer class="post-info"> <span class="post-meta"><time datetime="2016.04.15">2016.04.15</time>
+
+    &middot; 
+        
+        <a href="http://kas.li/tags/test">test</a>
+        
     
-        <li>
-            <a href="golang">golang (2)</a>
-        </li>
-    
-    </ul>
+
+</span>
+</footer>
+
+            
+
+<h2 id="测试一下:ba48f1518e48075d04487c38f31e6d80">测试一下</h2>
+
+<pre><code>package main
+
+
+import (
+    &quot;fmt&quot;
+)
+
+
+func main() {
+    var t interface{}
+    t = 2
+    // if t =2 ,out 4 ;if t = &quot;a&quot; ,out &quot;aa&quot;
+
+    switch t := t.(type) {
+    default:
+        fmt.Printf(&quot;unexpected type %T&quot;, t) // %T prints whatever type t has
+    case int:
+        tt := t + t
+        fmt.Println(tt)
+    case string:
+        tt := t + t
+        fmt.Println(tt)
+    }
+
+
+}
+
+
+</code></pre>
+
+            <ul class="share-buttons">
+    <li></li>
+    <li>
+        <a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkas.li%2fpost%2f%25E6%25B5%258B%25E8%25AF%2595%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title=""></a>
+    </li>
+    <li>
+        <a class="icon-twitter" href="https://twitter.com/share?text=%e6%b5%8b%e8%af%95&amp;url=http%3a%2f%2fkas.li%2fpost%2f%25E6%25B5%258B%25E8%25AF%2595%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title=""></a>
+    </li>
+    <li>
+        <a class="icon-gplus" href="https://plus.google.com/share?url=http%3a%2f%2fkas.li%2fpost%2f%25E6%25B5%258B%25E8%25AF%2595%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title=""></a>
+    </li>
+    <li>
+        <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fkas.li%2fpost%2f%25E6%25B5%258B%25E8%25AF%2595%2f&title=%e6%b5%8b%e8%af%95" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title=""></a>
+    </li>
+</ul>
+
+        </article>
+        <div class="comments">
+            <h3></h3>
+            
+        </div>
     </main>
     <aside class="author">
   <img class="profile-image" src="http://kas.li/img/kas.png" alt="" />
@@ -84,6 +143,7 @@
 </aside>
 
 </div>
+
 <footer class="main-footer">
   <div class="container clearfix">
         <a class="icon-rss" href="http://kas.li/post/index.xml" title="RSS"></a>

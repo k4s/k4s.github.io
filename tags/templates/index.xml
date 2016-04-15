@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Templates on kas</title>
+    <link>http://kas.li/tags/templates/</link>
+    <description>Recent content in Templates on kas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Apr 2016 11:54:17 +0800</lastBuildDate>
+    <atom:link href="http://kas.li/tags/templates/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20160415a</title>
+      <link>http://kas.li/post/20160415a/</link>
+      <pubDate>Fri, 15 Apr 2016 11:54:17 +0800</pubDate>
+      
+      <guid>http://kas.li/post/20160415a/</guid>
+      <description>&lt;p&gt;这是使用Hugo创建的站点中的第一篇文章。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
