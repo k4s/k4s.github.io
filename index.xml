@@ -19,57 +19,5 @@
 </description>
     </item>
     
-    <item>
-      <title>测试</title>
-      <link>http://kas.li/post/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Fri, 15 Apr 2016 14:59:22 +0800</pubDate>
-      
-      <guid>http://kas.li/post/%E6%B5%8B%E8%AF%95/</guid>
-      <description>
-
-&lt;h2 id=&#34;测试一下:ba48f1518e48075d04487c38f31e6d80&#34;&gt;测试一下&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;package main
-
-
-import (
-    &amp;quot;fmt&amp;quot;
-)
-
-
-func main() {
-    var t interface{}
-    t = 2
-    // if t =2 ,out 4 ;if t = &amp;quot;a&amp;quot; ,out &amp;quot;aa&amp;quot;
-
-    switch t := t.(type) {
-    default:
-        fmt.Printf(&amp;quot;unexpected type %T&amp;quot;, t) // %T prints whatever type t has
-    case int:
-        tt := t + t
-        fmt.Println(tt)
-    case string:
-        tt := t + t
-        fmt.Println(tt)
-    }
-
-
-}
-
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20160415a</title>
-      <link>http://kas.li/post/20160415a/</link>
-      <pubDate>Fri, 15 Apr 2016 11:54:17 +0800</pubDate>
-      
-      <guid>http://kas.li/post/20160415a/</guid>
-      <description>&lt;p&gt;这是使用Hugo创建的站点中的第一篇文章。&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
