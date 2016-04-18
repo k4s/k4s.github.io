@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on kas</title>
-    <link>http://kas.li/post/</link>
-    <description>Recent content in Posts on kas</description>
+    <title>乐理 on kas</title>
+    <link>http://kas.li/tags/%E4%B9%90%E7%90%86/</link>
+    <description>Recent content in 乐理 on kas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Apr 2016 09:20:31 +0800</lastBuildDate>
-    <atom:link href="http://kas.li/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://kas.li/tags/%E4%B9%90%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>基础乐理</title>
@@ -215,16 +215,6 @@ _________________________________________________________
 |   |   |   |   |   |   |   |   |   |   |    |   |   |   |
 |___|___|___|___|___|_A_|_B_|___|_D_|_E_| ___|___|_A_|___|
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>do something that you want to do</title>
-      <link>http://kas.li/post/FirstPost/</link>
-      <pubDate>Fri, 15 Apr 2016 16:37:34 +0800</pubDate>
-      
-      <guid>http://kas.li/post/FirstPost/</guid>
-      <description>&lt;p&gt;Life is not fish , do something that you want to do.&lt;/p&gt;
 </description>
     </item>
     
